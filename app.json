@@ -1,0 +1,23 @@
+{
+  "name": "ercoetuma",
+  "description": "test de app.json",
+  "scripts": {
+  },
+  "env": {
+    "key": "value",
+    "user": "vito"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
